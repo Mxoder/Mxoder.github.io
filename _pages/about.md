@@ -27,10 +27,6 @@ I find great joy in connecting with others and sharing knowledge through my tech
   <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations">
 </a>
 
-<a href="https://github.com/Mxoder">
-  <img src="https://img.shields.io/github/stars/Mxoder?affiliations=OWNER&style=flat-square&label=Total%20Stars&logo=github" alt="Total Stars"/>
-</a>
-
 
 
 # 🔥 News {#news}
