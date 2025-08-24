@@ -5,15 +5,34 @@
         {% else %}
         var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
         {% endif %}
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            var totalCitation = data['citedby']
-            document.getElementById('total_cit').innerHTML = totalCitation;
-            var citationEles = document.getElementsByClassName('show_paper_citations')
-            Array.prototype.forEach.call(citationEles, element => {
-                var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
+
+        var url = gsDataBaseUrl + "google-scholar-stats/gs_data.json";
+
+        $.getJSON(url, function (data) {
+            console.log("Successfully fetched Google Scholar data:", data); // 调试语句：打印获取到的数据
+
+            // 填充总引用数 (如果需要)
+            if (data['citedby'] && document.getElementById('total_cit')) {
+                var totalCitation = data['citedby'];
+                document.getElementById('total_cit').innerHTML = totalCitation;
+            }
+
+            // 填充单篇论文引用数
+            $('.show_paper_citations').each(function() {
+                var paperId = $(this).attr('data');
+                if (data['publications'] && data['publications'][paperId]) {
+                    var numCitations = data['publications'][paperId]['num_citations'];
+                    // 只有当引用数大于0时才显示
+                    if (numCitations > 0) {
+                        $(this).html('| Citations: ' + numCitations);
+                    }
+                } else {
+                    console.warn("Could not find citation data for paper ID:", paperId); // 调试语句：找不到对应论文ID
+                }
             });
+        }).fail(function(jqXHR, textStatus, errorThrown) {
+            console.error("Failed to fetch gs_data.json. Status: " + textStatus + ", Error: " + errorThrown); // 调试语句：请求失败时报错
+            console.error("Request URL was: " + url);
         });
-    })
+    });
 </script>
