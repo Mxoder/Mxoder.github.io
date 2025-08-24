@@ -41,8 +41,8 @@ jobs:
       - name: Commit and push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'CI: Update Hugging Face stats'
-          file_pattern: 'hf_stats.json' 
+          commit_message: 'CI: Update Hugging Face stats badges'
+          file_pattern: '*.json'
           commit_user_name: 'github-actions[bot]'
           commit_user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'

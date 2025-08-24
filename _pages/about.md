@@ -33,9 +33,9 @@ I am a native speaker of **Chinese**, with professional working proficiency in *
   <img src="https://img.shields.io/github/stars/Mxoder?affiliations=OWNER&style=flat-square&label=Total%20Stars&logo=github" alt="Total Stars"/>
 </a>
 
-[![Hugging Face Downloads](https://img.shields.io/endpoint?url=https://mxoder.github.io/hf_stats.json&query=$.total_downloads&label=HF%20Downloads&color=blue&logo=hugging-face)](https://huggingface.co/Mxode)
+[![Hugging Face Downloads](https://img.shields.io/endpoint?url=https://mxoder.github.io/hf_downloads_badge.json&logo=hugging-face&logoColor=white)](https://huggingface.co/Mxode)
 
-[![Hugging Face Likes](https://img.shields.io/endpoint?url=https://mxoder.github.io/hf_stats.json&query=$.total_likes&label=HF%20Likes&color=yellow&logo=hugging-face)](https://huggingface.co/Mxode)
+[![Hugging Face Likes](https://img.shields.io/endpoint?url=https://mxoder.github.io/hf_likes_badge.json&logo=hugging-face&logoColor=white)](https://huggingface.co/Mxode)
 
 
 
