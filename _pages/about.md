@@ -28,7 +28,10 @@ I find great joy in connecting with others and sharing knowledge through my tech
 </a>
 
 <a href="https://github.com/Mxoder">
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://github-readme-stats.vercel.app/api?username=Mxoder&query=$.stars&label=Total%20Stars&logo=github&color=yellow&style=flat" alt="Total Stars"/>
+  <img
+    src="https://img.shields.io/github/stars/Mxoder?affiliations=OWNER&style=flat-square&label=Total%20Stars&logo=github"
+    alt="Total Stars"
+  />
 </a>
 
 
