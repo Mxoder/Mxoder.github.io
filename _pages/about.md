@@ -23,7 +23,7 @@ I am a passionate advocate for open-source and take pride in contributing to the
 
 I find great joy in connecting with others and sharing knowledge through my technical blog. If my work resonates with you or if you have any ideas to discuss, I would be delighted to hear from you. You can find my email on the left.
 
-<a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>
+<a href='https://scholar.google.com/citations?user=OpcS2vQAAAAJ'>
   <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations">
 </a>
 
