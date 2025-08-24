@@ -1,0 +1,51 @@
+# .github/workflows/update_zhihu_stats.yml
+
+name: Update Zhihu Stats
+
+on:
+  # 每天 UTC 时间 2 点运行 (和 HF 的错开)
+  schedule:
+    - cron: '0 2 * * *'
+  
+  # 当有代码推送到 main 分支时运行
+  push:
+    branches:
+      - main
+
+  # 允许手动触发
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      # 第一步：检出你的仓库代码
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 第二步：设置 Python 环境
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      # 第三步：安装依赖库 (requests 和 loguru)
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests loguru
+
+      # 第四步：运行我们的 Python 脚本
+      - name: Run script to update Zhihu stats
+        run: python scripts/update_zhihu_stats.py
+
+      # 第五步：提交更新后的 4 个徽章文件
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'CI: Update Zhihu stats badges'
+          # 只匹配知乎相关的徽章文件，避免冲突
+          file_pattern: 'zhihu_*_badge.json'
+          commit_user_name: 'github-actions[bot]'
+          commit_user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
