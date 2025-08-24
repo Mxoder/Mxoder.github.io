@@ -51,32 +51,43 @@ def get_total_downloads_and_likes():
         return total_downloads, total_likes
     except Exception as e:
         logger.error(f"从 Hugging Face API 获取数据时发生错误: {e}")
-        return 0
+        return 0, 0
 
 
-def save_stats_to_file(total_downloads, total_likes):
+def create_badge_json(label, message, color, file_path):
     """
-    保存统计数据。
+    创建并保存一个符合 Shields.io endpoint 规范的 JSON 文件。
     """
-    # data_dir = "_data"    # 保存到 Jekyll 的 _data 目录中
-    data_dir = "."
-    file_path = os.path.join(data_dir, "hf_stats.json")
+    badge_data = {
+        "schemaVersion": 1,
+        "label": label,
+        "message": str(message),  # message 必须是字符串
+        "color": color,
+    }
 
     try:
-        # os.makedirs(data_dir, exist_ok=True)  # 根目录总会存在
-
         with open(file_path, "w") as f:
-            json.dump(
-                {"total_downloads": total_downloads, "total_likes": total_likes},
-                f,
-                indent=2,
-            )
-
-        logger.info(f"数据已成功保存到 {file_path}")
+            json.dump(badge_data, f, indent=2)
+        logger.info(f"成功生成徽章文件: {file_path}")
     except Exception as e:
-        logger.error(f"保存数据到文件时发生错误: {e}")
+        logger.error(f"保存文件 {file_path} 时发生错误: {e}")
 
 
 if __name__ == "__main__":
     total_downloads, total_likes = get_total_downloads_and_likes()
-    save_stats_to_file(total_downloads, total_likes)
+
+    # 为下载量创建一个徽章 JSON
+    create_badge_json(
+        label="HF Downloads",
+        message=f"{total_downloads:,}",  # 使用千位分隔符
+        color="blue",
+        file_path="hf_downloads_badge.json",
+    )
+
+    # 为点赞数创建一个徽章 JSON
+    create_badge_json(
+        label="HF Likes",
+        message=f"{total_downloads:,}",  # 使用千位分隔符
+        color="yellow",
+        file_path="hf_likes_badge.json",
+    )
