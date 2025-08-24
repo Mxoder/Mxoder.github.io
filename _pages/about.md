@@ -17,14 +17,26 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am a graduate of the School of Computer Science and Engineering (SCSE) at Beihang University (北京航空航天大学计算机学院). My research is centered on Large Language Models (LLMs) and Multimodal Large Language Models (MLLMs), with a current focus on enhancing the coding capabilities of LLMs. I am also passionate about exploring Data Curation methodologies and the potential of Small Models.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+I am a passionate advocate for open-source and take pride in contributing to the community with a variety of projects, models, and datasets on GitHub and Hugging Face. It is also my pleasure to give back to the academic world by serving as a reviewer for international conferences and workshops.
+
+I find great joy in connecting with others and sharing knowledge through my technical blog. If my work resonates with you or if you have any ideas to discuss, I would be delighted to hear from you. You can find my email on the left.
+
+<a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>
+  <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations">
+</a>
+
+<a href="https://github.com/Mxoder">
+  <img src="https://github-readme-stats.vercel.app/api?username=Mxoder&show_icons=true&count_private=true&hide=contribs" alt="GitHub stats"/>
+</a>
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.08*: &nbsp;🎉 One paper accepted to *EMNLP 2025*.
+- *2025.07*: &nbsp;🎉 Two papers accepted to *ICCV 2025 Workshops*.
+- *2025.04*: &nbsp;🏅 Received **3 Great Review recognitions** in *ACL Rolling Review (Feb. cycle)*.
+- *2024.12*: &nbsp;🎉 One paper accepted to *AAAI 2025*.
 
 # 📝 Publications 
 

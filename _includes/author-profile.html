@@ -70,13 +70,13 @@
       {% if author.huggingface %}
         <li>
           <a href="{{ author.huggingface }}">
-            <img src="images/hf-logo.svg" alt="Hugging Face" style="height:1em; width:auto; vertical-align:middle;">
+            <img src="images/hf-logo.svg" alt="Hugging Face" style="height:1em; width:auto; vertical-align:-0.125em; display:inline-block;">
             Hugging Face 
           </a>
         </li>
       {% endif %}
       {% if author.zhihu %}
-        <li><a href="{{ author.zhihu }}"><i class="fa-brands fa-zhihu"></i> Zhihu </a></li>
+        <li><a href="{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu" aria-hidden="true"></i> Zhihu</a></li>
       {% endif %}
       {% if author.stackoverflow %}
         <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow</a></li>
