@@ -5,8 +5,7 @@ import json
 import requests
 from loguru import logger
 
-# 你的知乎用户 URL Token
-ZHIHU_USER_TOKEN = "mxode"
+ZHIHU_USER_TOKEN = "mxode"  # 知乎用户 URL Token
 
 
 def get_zhihu_stats():
@@ -15,15 +14,21 @@ def get_zhihu_stats():
     """
     api_url = f"https://www.zhihu.com/api/v4/members/{ZHIHU_USER_TOKEN}?include=follower_count,favorited_count,voteup_count,thanked_count"
 
+    # 从 Secrets 获取 Cookie
+    zhihu_cookie = os.getenv("ZHIHU_COOKIE")
+    if not zhihu_cookie:
+        logger.error("未能从环境变量获取 ZHIHU_COOKIE，请求很可能会失败！")
+
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
+        "Referer": f"https://www.zhihu.com/people/{ZHIHU_USER_TOKEN}",
+        "Cookie": zhihu_cookie,  # 将 cookie 加入请求头
     }
 
     try:
         logger.info(f"正在从 API 获取数据: {api_url}")
         response = requests.get(api_url, headers=headers, timeout=10)
-        # 如果请求失败（例如 404, 500），则抛出异常
-        response.raise_for_status()
+        response.raise_for_status()  # 检查请求是否成功
 
         data = response.json()
         logger.success("成功获取并解析知乎数据！")
@@ -38,10 +43,11 @@ def get_zhihu_stats():
 
     except requests.exceptions.RequestException as e:
         logger.error(f"请求知乎 API 时发生网络错误: {e}")
-    except json.JSONDecodeError:
-        logger.error("解析知乎返回的 JSON 数据失败。")
+        logger.error(
+            f"服务器返回内容: {response.text if 'response' in locals() else 'N/A'}"
+        )
     except Exception as e:
-        logger.error(f"发生未知错误: {e}")
+        logger.error(f"处理数据时发生未知错误: {e}")
 
     # 如果任何环节出错，返回一组默认值
     return {"followers": 0, "favorites": 0, "voteups": 0, "thanks": 0}
@@ -72,7 +78,7 @@ if __name__ == "__main__":
     # 1. 为“关注者”创建徽章
     create_badge_json(
         label="Zhihu Followers",
-        message=f"{zhihu_stats['followers']:,}",    # 使用千位分隔符
+        message=f"{zhihu_stats['followers']:,}",  # 使用千位分隔符
         color="blue",
         file_path="zhihu_followers_badge.json",
     )
@@ -80,7 +86,7 @@ if __name__ == "__main__":
     # 2. 为“赞同数”创建徽章
     create_badge_json(
         label="Zhihu Upvotes",
-        message=f"{zhihu_stats['voteups']:,}",      # 使用千位分隔符
+        message=f"{zhihu_stats['voteups']:,}",  # 使用千位分隔符
         color="green",
         file_path="zhihu_voteups_badge.json",
     )
@@ -88,7 +94,7 @@ if __name__ == "__main__":
     # 3. 为“收藏数”创建徽章
     create_badge_json(
         label="Zhihu Bookmarks",
-        message=f"{zhihu_stats['favorites']:,}",    # 使用千位分隔符
+        message=f"{zhihu_stats['favorites']:,}",  # 使用千位分隔符
         color="orange",
         file_path="zhihu_favorites_badge.json",
     )
@@ -96,7 +102,7 @@ if __name__ == "__main__":
     # 4. 为“感谢数”创建徽章
     create_badge_json(
         label="Zhihu Thanks",
-        message=f"{zhihu_stats['thanks']:,}",       # 使用千位分隔符
+        message=f"{zhihu_stats['thanks']:,}",  # 使用千位分隔符
         color="red",
         file_path="zhihu_thanks_badge.json",
     )

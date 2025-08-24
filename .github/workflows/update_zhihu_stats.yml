@@ -38,6 +38,8 @@ jobs:
       # 第四步：运行我们的 Python 脚本
       - name: Run script to update Zhihu stats
         run: python scripts/update_zhihu_stats.py
+        env:
+          ZHIHU_COOKIE: ${{ secrets.ZHIHU_COOKIE }}
 
       # 第五步：提交更新后的 4 个徽章文件
       - name: Commit and push if changed
