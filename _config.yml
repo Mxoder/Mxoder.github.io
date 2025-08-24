@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Xiantao Zhang"
-description              : "Personal homepage featuring my research profile, publications, and academic contributions."
+description              : "Hi :)"
 repository               : "Mxoder/Mxoder.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -38,6 +38,8 @@ author:
   facebook         :
   foursquare       :
   github           : "Mxoder"
+  zhihu            : "https://www.zhihu.com/people/mxode"
+  huggingface      : "https://huggingface.co/Mxode"
   google_plus      :
   keybase          :
   instagram        :
@@ -57,8 +59,6 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-  zhihu            : "https://www.zhihu.com/people/mxode"
-  huggingface      : "https://huggingface.co/Mxode"
 
 
 # Reading Files
