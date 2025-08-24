@@ -28,19 +28,47 @@ My research interest includes neural machine translation and computer vision. I 
 
 # 📝 Publications 
 
+Authors marked with \* contributed equally (co-first authors).
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2025</div><img src='images/Math-PUMA-500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Math-PUMA: Progressive Upward Multimodal Alignment to Enhance Mathematical Reasoning](https://ojs.aaai.org/index.php/AAAI/article/view/34815)
 
-Wenwen Zhuang\* Xin Huang\*, **Xiantao Zhang\***, Jin Zeng
+Wenwen Zhuang\*, Xin Huang\*, **Xiantao Zhang\***, Jin Zeng
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=OpcS2vQAAAAJ&citation_for_view=OpcS2vQAAAAJ:u5HHmVD_uO8C) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**Project**](https://github.com/wwzhuang01/Math-PUMA) <strong><span class='show_paper_citations' data='OpcS2vQAAAAJ:u5HHmVD_uO8C'></span></strong>
+- This paper introduces Math-PUMA, a novel training methodology that uses Progressive Upward Multimodal Alignment to significantly narrow the performance gap between textual and visual modalities in mathematical reasoning , achieving state-of-the-art results among open-source MLLMs. 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CV4A11y@ICCV 2025</div><img src='images/The_Escalator_Problem-500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[The Escalator Problem: Identifying Implicit Motion Blindness in AI for Accessibility](https://arxiv.org/abs/2508.07989)
+
+**Xiantao Zhang**
+
+[**Project**](https://arxiv.org/abs/2508.07989) <strong><span class='show_paper_citations' data='OpcS2vQAAAAJ:UeHWp8X0CEIC'></span></strong>
+- This paper identifies "Implicit Motion Blindness" in MLLMs, exemplified by their failure to determine an escalator's direction , and argues this flaw—caused by the prevalent frame-sampling paradigm —necessitates a paradigm shift from semantic recognition to robust physical perception to build trustworthy assistive AI for the visually impaired. 
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WCCA@ICCV 2025</div><img src='images/Pre_vs_Fab-500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Preservation vs. Fabrication: An Ethical Framework of Consent, Transparency, and Integrity for Posthumous AI Art](https://openreview.net/forum?id=UEHmz3m7zl)
+
+**Xiantao Zhang**
+
+[**Project**](https://openreview.net/forum?id=UEHmz3m7zl) <strong><span class='show_paper_citations' data='OpcS2vQAAAAJ:9yKSN-GCB0IC'></span></strong>
+- This paper proposes an ethical framework for posthumous AI art, demanding the artist's explicit consent, mandatory transparency, and an integrity rule that forbids AI from fabricating new works where no verifiable intent exists. 
+</div>
+</div>
+
+
 
 # 📖 Educations
 - *2021.09 - 2025.06*, B.S. in Computer Science, School of Computer Science and Engineering (SCSE), Beihang University. 
