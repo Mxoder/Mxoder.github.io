@@ -36,6 +36,8 @@ jobs:
       # 第四步：运行我们的 Python 脚本
       - name: Run script to update stats
         run: python scripts/update_hf_stats.py
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
 
       # 第五步：提交更新后的数据文件
       - name: Commit and push if changed
