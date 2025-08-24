@@ -28,15 +28,19 @@ I find great joy in connecting with others and sharing knowledge through my tech
 </a>
 
 <a href="https://github.com/Mxoder">
-  <img src="https://github-readme-stats.vercel.app/api?username=Mxoder&show_icons=true&count_private=true&hide=contribs" alt="GitHub stats"/>
+  <img src="https://img.shields.io/badge/dynamic/json?url=https://github-readme-stats.vercel.app/api?username=Mxoder&query=$.stars&label=Total%20Stars&logo=github&color=yellow&style=flat" alt="Total Stars"/>
 </a>
 
 
+
 # 🔥 News
+
 - *2025.08*: &nbsp;🎉 One paper accepted to *EMNLP 2025*.
 - *2025.07*: &nbsp;🎉 Two papers accepted to *ICCV 2025 Workshops*.
 - *2025.04*: &nbsp;🏅 Received **3 Great Review recognitions** in *ACL Rolling Review (Feb. cycle)*.
 - *2024.12*: &nbsp;🎉 One paper accepted to *AAAI 2025*.
+
+
 
 # 📝 Publications 
 
@@ -62,7 +66,6 @@ Wenwen Zhuang\*, Xin Huang\*, **Xiantao Zhang\***, Jin Zeng
 
 **Xiantao Zhang**
 
-[**Project**](https://arxiv.org/abs/2508.07989) <strong><span class='show_paper_citations' data='OpcS2vQAAAAJ:UeHWp8X0CEIC'></span></strong>
 - This paper identifies "Implicit Motion Blindness" in MLLMs, exemplified by their failure to determine an escalator's direction , and argues this flaw—caused by the prevalent frame-sampling paradigm —necessitates a paradigm shift from semantic recognition to robust physical perception to build trustworthy assistive AI for the visually impaired. 
 </div>
 </div>
@@ -75,7 +78,6 @@ Wenwen Zhuang\*, Xin Huang\*, **Xiantao Zhang\***, Jin Zeng
 
 **Xiantao Zhang**
 
-[**Project**](https://openreview.net/forum?id=UEHmz3m7zl) <strong><span class='show_paper_citations' data='OpcS2vQAAAAJ:9yKSN-GCB0IC'></span></strong>
 - This paper proposes an ethical framework for posthumous AI art, demanding the artist's explicit consent, mandatory transparency, and an integrity rule that forbids AI from fabricating new works where no verifiable intent exists. 
 </div>
 </div>
@@ -85,20 +87,37 @@ Wenwen Zhuang\*, Xin Huang\*, **Xiantao Zhang\***, Jin Zeng
 # 📖 Educations
 - *2021.09 - 2025.06*, B.S. in Computer Science, School of Computer Science and Engineering (SCSE), Beihang University. 
 
+
+
 # 🎖 Honors and Awards
 
 - *2025.06*, Outstanding Bachelor Thesis, School of Computer Science and Engineering (SCSE), Beihang University.
 
+
+
 # 💻 Internships
+
 - *2024.07 - 2024.09*, ByteDance, Beijing.
+
+
 
 # 📝 Academic Service
 
-- **Reviewer**, *ACL 2025* (ARR Feb. cycle) — Recognized with **3 Great Review** awards
+**Conferences:**
+
+- **Program Committee Member**, *AAAI 2026*
 - **Reviewer**, *EMNLP 2025* (ARR May. cycle)
 - **Reviewer**, *ACM Multimedia 2025*
-- **Program Committee Member**, *AAAI 2026*
+- **Reviewer**, *ACL 2025* (ARR Feb. cycle) — Recognized with **3 Great Review** awards
+
+**Workshops:**
+
 - **Reviewer**, *ICML 2025 Workshop on AIW*
 - **Reviewer**, *NeurIPS 2025 Workshop on MATH-AI*
 - **Reviewer**, *NeurIPS 2025 Workshop on COML*
 - **Reviewer**, *COLM 2025 Workshop on INTERPLAY*
+
+
+
+# 🚀 Open Source Projects
+
