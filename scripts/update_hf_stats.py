@@ -79,7 +79,7 @@ if __name__ == "__main__":
     # 为下载量创建一个徽章 JSON
     create_badge_json(
         label="HF Downloads",
-        message=f"{total_downloads:,}",  # 使用千位分隔符
+        message=f"{total_downloads:,}",     # 使用千位分隔符
         color="blue",
         file_path="hf_downloads_badge.json",
     )
@@ -87,7 +87,7 @@ if __name__ == "__main__":
     # 为点赞数创建一个徽章 JSON
     create_badge_json(
         label="HF Likes",
-        message=f"{total_downloads:,}",  # 使用千位分隔符
+        message=f"{total_likes:,}",         # 使用千位分隔符
         color="yellow",
         file_path="hf_likes_badge.json",
     )

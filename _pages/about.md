@@ -33,9 +33,9 @@ I am a native speaker of **Chinese**, with professional working proficiency in *
   <img src="https://img.shields.io/github/stars/Mxoder?affiliations=OWNER&style=flat-square&label=Total%20Stars&logo=github" alt="Total Stars"/>
 </a>
 
-[![Hugging Face Downloads](https://img.shields.io/endpoint?url=https://mxoder.github.io/hf_downloads_badge.json&logo=hugging-face&logoColor=white)](https://huggingface.co/Mxode)
+[![Hugging Face Downloads](https://img.shields.io/endpoint?url=https://mxoder.github.io/hf_downloads_badge.json&logo=hugging-face)](https://huggingface.co/Mxode)
 
-[![Hugging Face Likes](https://img.shields.io/endpoint?url=https://mxoder.github.io/hf_likes_badge.json&logo=hugging-face&logoColor=white)](https://huggingface.co/Mxode)
+[![Hugging Face Likes](https://img.shields.io/endpoint?url=https://mxoder.github.io/hf_likes_badge.json&logo=hugging-face)](https://huggingface.co/Mxode)
 
 
 
@@ -60,7 +60,7 @@ Authors marked with \* contributed equally (co-first authors).
 
 Wenwen Zhuang\*, Xin Huang\*, **Xiantao Zhang\***, Jin Zeng
 
-[**Project**](https://github.com/wwzhuang01/Math-PUMA) <strong><span class='show_paper_citations' data='OpcS2vQAAAAJ:u5HHmVD_uO8C'></span></strong>
+[**Project**](https://github.com/wwzhuang01/Math-PUMA) <a href="https://github.com/wwzhuang01/Math-PUMA"><img src="https://img.shields.io/github/stars/wwzhuang01/Math-PUMA?style=flat&logo=github" alt="GitHub stars"/></a> <strong><span class='show_paper_citations' data='OpcS2vQAAAAJ:u5HHmVD_uO8C'></span></strong>
 - This paper introduces Math-PUMA, a novel training methodology that uses Progressive Upward Multimodal Alignment to significantly narrow the performance gap between textual and visual modalities in mathematical reasoning , achieving state-of-the-art results among open-source MLLMs. 
 </div>
 </div>
