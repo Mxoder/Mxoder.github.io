@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a graduate of the School of Computer Science and Engineering (SCSE) at Beihang University (北京航空航天大学计算机学院). My research is centered on Large Language Models (LLMs) and Multimodal Large Language Models (MLLMs), with a current focus on enhancing the coding capabilities of LLMs. I am also passionate about exploring Data Curation methodologies and the potential of Small Models.
+I am a graduate of the School of Computer Science and Engineering (SCSE) at Beihang University (北京航空航天大学计算机学院). My research is centered on **Large Language Models (LLMs)** and **Multimodal Large Language Models (MLLMs)**, with a current focus on enhancing the **coding capabilities of LLMs**. I am also passionate about exploring **Data Curation** methodologies and the potential of **Small Models**.
 
 I am a passionate advocate for open-source and take pride in contributing to the community with a variety of projects, models, and datasets on GitHub and Hugging Face. It is also my pleasure to give back to the academic world by serving as a reviewer for international conferences and workshops.
 
@@ -28,24 +28,22 @@ I find great joy in connecting with others and sharing knowledge through my tech
 </a>
 
 <a href="https://github.com/Mxoder">
-  <img
-    src="https://img.shields.io/github/stars/Mxoder?affiliations=OWNER&style=flat-square&label=Total%20Stars&logo=github"
-    alt="Total Stars"
-  />
+  <img src="https://img.shields.io/github/stars/Mxoder?affiliations=OWNER&style=flat-square&label=Total%20Stars&logo=github" alt="Total Stars"/>
 </a>
 
 
 
-# 🔥 News
+# 🔥 News {#news}
 
 - *2025.08*: &nbsp;🎉 One paper accepted to *EMNLP 2025*.
 - *2025.07*: &nbsp;🎉 Two papers accepted to *ICCV 2025 Workshops*.
+- *2025.06*: &nbsp;🎉 Two papers accepted to *ICML 2025 Workshops*.
 - *2025.04*: &nbsp;🏅 Received **3 Great Review recognitions** in *ACL Rolling Review (Feb. cycle)*.
 - *2024.12*: &nbsp;🎉 One paper accepted to *AAAI 2025*.
 
 
 
-# 📝 Publications 
+# 📝 Publications {#publications}
 
 Authors marked with \* contributed equally (co-first authors).
 
@@ -87,24 +85,24 @@ Wenwen Zhuang\*, Xin Huang\*, **Xiantao Zhang\***, Jin Zeng
 
 
 
-# 📖 Educations
+# 📖 Educations {#educations}
 - *2021.09 - 2025.06*, B.S. in Computer Science, School of Computer Science and Engineering (SCSE), Beihang University. 
 
 
 
-# 🎖 Honors and Awards
+# 🎖 Honors and Awards {#honors-and-awards}
 
 - *2025.06*, Outstanding Bachelor Thesis, School of Computer Science and Engineering (SCSE), Beihang University.
 
 
 
-# 💻 Internships
+# 💻 Internships {#internships}
 
 - *2024.07 - 2024.09*, ByteDance, Beijing.
 
 
 
-# 📝 Academic Service
+# 📝 Academic Service {#academic-service}
 
 **Conferences:**
 
@@ -122,5 +120,25 @@ Wenwen Zhuang\*, Xin Huang\*, **Xiantao Zhang\***, Jin Zeng
 
 
 
-# 🚀 Open Source Projects
+# 🚀 Open Source Projects {#open-source-projects}
 
+- [LLM-from-scratch](https://github.com/Mxoder/LLM-from-scratch) <a href="https://github.com/Mxoder/LLM-from-scratch"><img src="https://img.shields.io/github/stars/Mxoder/LLM-from-scratch?style=flat&logo=github" alt="GitHub stars"/></a>: A series of hands-on reproductions and technical deep-dives, including *pretraining LLaMA-3 from scratch*, *implementing LoRA from scratch*, in-depth analyses of the *Qwen Series technical reports*, and explorations of *asynchronous concurrency in LLMs*, and more.
+
+- [Maxs-Awesome-Datasets](https://github.com/Mxoder/Maxs-Awesome-Datasets) <a href="https://github.com/Mxoder/Maxs-Awesome-Datasets"><img src="https://img.shields.io/github/stars/Mxoder/Maxs-Awesome-Datasets?style=flat&logo=github" alt="GitHub stars"/></a>: A diverse set of open-source datasets I have released, with a particular emphasis on **Chinese datasets** across various domains and topics, among others.
+
+
+
+# ✍️ Blogs {#blogs}
+
+*Friendly reminder: the following blog posts are written in **Chinese**.*
+{: .notice--info}
+
+- **[How Qwen3 Achieves Hybrid Thinking (Fast and Slow Thinking)?](https://zhuanlan.zhihu.com/p/1900555481715570305)** – 200+ likes, 300+ bookmarks
+
+- **[LoRA from Scratch](https://zhuanlan.zhihu.com/p/702419731)** – 200+ likes, 400+ bookmarks
+
+- **[Pretraining a Miniature LLaMA-3 from Scratch](https://zhuanlan.zhihu.com/p/695130168)** – 150+ likes, 400+ bookmarks
+
+- **[A New Chinese Reasoning Distillation Dataset: Chinese-Reasoning-Distil-Data](https://zhuanlan.zhihu.com/p/1898405616860521535)** – 30+ likes, 80+ bookmarks
+
+*Read more on my [Zhihu Homepage](https://www.zhihu.com/people/mxode).*
