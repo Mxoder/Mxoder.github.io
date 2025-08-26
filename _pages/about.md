@@ -35,7 +35,7 @@ I am a native speaker of **Chinese**, with professional working proficiency in *
 
 [![Hugging Face Downloads](https://img.shields.io/endpoint?url=https://mxoder.github.io/hf_downloads_badge.json&logo=hugging-face)](https://huggingface.co/Mxode) [![Hugging Face Likes](https://img.shields.io/endpoint?url=https://mxoder.github.io/hf_likes_badge.json&logo=hugging-face)](https://huggingface.co/Mxode)
 
-[![Zhihu Followers](https://img.shields.io/endpoint?url=https://mxoder.github.io/zhihu_followers_badge.json&logo=zhihu)](https://www.zhihu.com/people/mxode) [![Zhihu Upvotes](https://img.shields.io/endpoint?url=https://mxoder.github.io/zhihu_voteups_badge.json&logo=zhihu)](https://www.zhihu.com/people/mxode) [![Zhihu Bookmarks](https://img.shields.io/endpoint?url=https://mxoder.github.io/zhihu_favorites_badge.json&logo=zhihu)](https://www.zhihu.com/people/mxode) [![知乎感谢](https://img.shields.io/endpoint?url=https://mxoder.github.io/zhihu_thanks_badge.json&logo=zhihu)](https://www.zhihu.com/people/mxode)
+<!-- [![Zhihu Followers](https://img.shields.io/endpoint?url=https://mxoder.github.io/zhihu_followers_badge.json&logo=zhihu)](https://www.zhihu.com/people/mxode) [![Zhihu Upvotes](https://img.shields.io/endpoint?url=https://mxoder.github.io/zhihu_voteups_badge.json&logo=zhihu)](https://www.zhihu.com/people/mxode) [![Zhihu Bookmarks](https://img.shields.io/endpoint?url=https://mxoder.github.io/zhihu_favorites_badge.json&logo=zhihu)](https://www.zhihu.com/people/mxode) [![知乎感谢](https://img.shields.io/endpoint?url=https://mxoder.github.io/zhihu_thanks_badge.json&logo=zhihu)](https://www.zhihu.com/people/mxode) -->
 
 
 
