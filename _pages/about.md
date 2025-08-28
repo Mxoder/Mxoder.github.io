@@ -44,7 +44,7 @@ I am a native speaker of **Chinese**, with professional working proficiency in *
 - *2025.08*: &nbsp;🎉 One paper accepted to *EMNLP 2025*.
 - *2025.07*: &nbsp;🎉 Two papers accepted to *ICCV 2025 Workshops*.
 - *2025.06*: &nbsp;🎉 Two papers accepted to *ICML 2025 Workshops*.
-- *2025.04*: &nbsp;🏅 Received **3 Great Review recognitions** in *ACL Rolling Review (Feb. cycle)*.
+- *2025.04*: &nbsp;🏅 Received **3 Great Review distinctions** in *ACL Rolling Review (Feb. cycle)*.
 - *2024.12*: &nbsp;🎉 One paper accepted to *AAAI 2025*.
 
 
@@ -115,7 +115,7 @@ Wenwen Zhuang\*, Xin Huang\*, **Xiantao Zhang\***, Jin Zeng
 - **Program Committee Member**, *AAAI 2026*
 - **Reviewer**, *EMNLP 2025* (ARR May. cycle)
 - **Reviewer**, *ACM Multimedia 2025*
-- **Reviewer**, *ACL 2025* (ARR Feb. cycle) — Recognized with **3 Great Review** awards
+- **Reviewer**, *ACL 2025* (ARR Feb. cycle) — Received **3 Great Review distinctions**
 
 **Workshops:**
 
