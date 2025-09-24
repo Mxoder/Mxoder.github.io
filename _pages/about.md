@@ -104,7 +104,8 @@ Wenwen Zhuang\*, Xin Huang\*, **Xiantao Zhang\***, Jin Zeng
 
 # 💻 Internships {#internships}
 
-- *2024.07 - 2024.09*, ByteDance, Beijing.
+- *2025.09 - Present*, Seed, ByteDance.
+- *2024.07 - 2024.09*, Gauth, ByteDance.
 
 
 
