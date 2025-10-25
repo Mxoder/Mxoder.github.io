@@ -41,6 +41,7 @@ I am a native speaker of **Chinese**, with professional working proficiency in *
 
 # 🔥 News {#news}
 
+- *2025.10*: &nbsp;🎉 One paper accepted to *IJCNLP-AACL 2025*.
 - *2025.08*: &nbsp;🎉 One paper accepted to *EMNLP 2025*.
 - *2025.07*: &nbsp;🎉 Two papers accepted to *ICCV 2025 Workshops*.
 - *2025.06*: &nbsp;🎉 Two papers accepted to *ICML 2025 Workshops*.
