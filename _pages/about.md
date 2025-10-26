@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a graduate of the School of Computer Science and Engineering (SCSE) at Beihang University (北京航空航天大学计算机学院). My research is centered on **Large Language Models (LLMs)** and **Multimodal Large Language Models (MLLMs)**, with a current focus on enhancing the **coding capabilities of LLMs**. I am also passionate about exploring **Data Curation** methodologies and the potential of **Small Models**.
+I am a graduate of the School of Computer Science and Engineering (SCSE) at Beihang University (北京航空航天大学 计算机学院). My research is centered on **Large Language Models (LLMs)** and **Multimodal Large Language Models (MLLMs)**. I am currently an intern at ByteDance Seed, where my focus is on enhancing the **coding capabilities of LLMs**. I am also passionate about exploring **Data Curation** methodologies and the potential of **Small Models**.
 
 I am a passionate advocate for open-source and take pride in contributing to the community with a variety of projects, models, and datasets on GitHub and Hugging Face. It is also my pleasure to give back to the academic world by serving as a reviewer for international conferences and workshops.
 
@@ -41,12 +41,13 @@ I am a native speaker of **Chinese**, with professional working proficiency in *
 
 # 🔥 News {#news}
 
-- *2025.10*: &nbsp;🎉 One paper accepted to *IJCNLP-AACL 2025*.
-- *2025.08*: &nbsp;🎉 One paper accepted to *EMNLP 2025*.
-- *2025.07*: &nbsp;🎉 Two papers accepted to *ICCV 2025 Workshops*.
-- *2025.06*: &nbsp;🎉 Two papers accepted to *ICML 2025 Workshops*.
-- *2025.04*: &nbsp;🏅 Received **3 Great Review distinctions** in *ACL Rolling Review (Feb. cycle)*.
-- *2024.12*: &nbsp;🎉 One paper accepted to *AAAI 2025*.
+- *[2025.10]* &nbsp;🎉 One paper accepted to *IJCNLP-AACL 2025*.
+- *[2025.09]* &nbsp;🎉 One paper accepted to *EMNLP 2025 Workshops*.
+- *[2025.08]* &nbsp;🎉 One paper accepted to *EMNLP 2025*.
+- *[2025.07]* &nbsp;🎉 Two papers accepted to *ICCV 2025 Workshops*.
+- *[2025.06]* &nbsp;🎉 Two papers accepted to *ICML 2025 Workshops*.
+- *[2025.04]* &nbsp;🏅 Received **3 Great Review distinctions** in *ACL Rolling Review (Feb. cycle)*.
+- *[2024.12]* &nbsp;🎉 One paper accepted to *AAAI 2025*.
 
 
 
@@ -93,6 +94,7 @@ Wenwen Zhuang\*, Xin Huang\*, **Xiantao Zhang\***, Jin Zeng
 
 
 # 📖 Educations {#educations}
+
 - *2021.09 - 2025.06*, B.S. in Computer Science, School of Computer Science and Engineering (SCSE), Beihang University. 
 
 
@@ -146,7 +148,5 @@ Wenwen Zhuang\*, Xin Huang\*, **Xiantao Zhang\***, Jin Zeng
 - **[LoRA from Scratch](https://zhuanlan.zhihu.com/p/702419731)** – 200+ likes, 400+ bookmarks
 
 - **[Pretraining a Miniature LLaMA-3 from Scratch](https://zhuanlan.zhihu.com/p/695130168)** – 150+ likes, 400+ bookmarks
-
-- **[A New Chinese Reasoning Distillation Dataset: Chinese-Reasoning-Distil-Data](https://zhuanlan.zhihu.com/p/1898405616860521535)** – 30+ likes, 80+ bookmarks
 
 *Read more on my [Zhihu Homepage](https://www.zhihu.com/people/mxode).*
