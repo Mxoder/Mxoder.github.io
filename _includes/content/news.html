@@ -1,0 +1,5 @@
+<ul>
+{% for item in site.data.news limit: include.limit %}
+  <li>{{ item.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+{% endfor %}
+</ul>

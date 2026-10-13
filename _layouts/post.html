@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<nav class="post-navigation" aria-label="Breadcrumb">
+  <a href="{{ '/' | relative_url }}">Home</a> / <a href="{{ '/blog/' | relative_url }}">Blog</a>
+</nav>
+<h1>{{ page.title | escape }}</h1>
+<p class="post-list__date"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%Y.%m.%d' }}</time>{% if page.tags.size > 0 %} · {{ page.tags | join: ', ' | escape }}{% endif %}</p>
+<div class="blog-article">
+{{ content }}
+</div>
+<p><a href="{{ '/blog/' | relative_url }}">← All writing</a></p>

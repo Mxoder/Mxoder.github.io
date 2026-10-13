@@ -16,6 +16,7 @@
 @import "vendor/susy/susy";
 
 @import "reset";
+@import "fonts";
 @import "base";
 
 @import "utilities";
@@ -106,4 +107,90 @@ h1:before, .anchor:before {
     color: white;
     background-color: #00369f;
     font-size: .8em;
+}
+
+.greedy-nav a[aria-current="page"] {
+    color: $link-color;
+    font-weight: bold;
+}
+
+.post-list__date {
+    color: $gray;
+}
+
+.post-list > li {
+    margin-bottom: 1em;
+}
+
+.post-list__date time {
+    white-space: nowrap;
+}
+
+.profile-badges {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+
+    a {
+        display: block;
+        flex: 0 0 auto;
+        max-width: 100%;
+        line-height: 0;
+    }
+
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Keep interface elements sans-serif; only long-form article prose uses serif. */
+.blog-article {
+    max-width: 42rem;
+    font-family: "Source Serif 4", "Source Han Serif SC", "Songti SC", "Noto Serif CJK SC", SimSun, serif;
+    font-size: 18px;
+    line-height: 1.75;
+    overflow-wrap: break-word;
+
+    p {
+        margin-bottom: 1em;
+    }
+
+    li + li {
+        margin-top: 0.3em;
+    }
+
+    pre, code {
+        font-family: $monospace;
+        font-variant-ligatures: none;
+    }
+
+    pre {
+        font-size: 15px;
+        line-height: 1.6;
+        overflow-wrap: normal;
+    }
+
+    .highlighter-rouge .highlight {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    p > code, li > code {
+        font-size: 0.9em;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .blog-article {
+        font-size: 17px;
+    }
 }

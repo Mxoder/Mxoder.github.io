@@ -121,6 +121,13 @@ kramdown:
 
 # Defaults
 defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author_profile: true
+      permalink: /blog/:title/
   # _pages
   - scope:
       path: ""
